@@ -8,3 +8,13 @@ C:\Users\Stefan\Documents\Calculator\Calculator\obj\Debug\Calculator.csproj.Gene
 C:\Users\Stefan\Documents\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\Stefan\Documents\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\Stefan\Documents\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\cooli_hd24\Documents\Calculator\Calculator\obj\Debug\Calculator.pdb

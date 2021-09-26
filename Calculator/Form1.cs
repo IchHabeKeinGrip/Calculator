@@ -17,54 +17,107 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void bt0_Click(object sender, EventArgs e)
+        private void btPlus_Click(object sender, EventArgs e)
         {
-            textBox1.AppendText("0");
+            if(Operant1.Text != null && Operant2.Text != null)
+            {
+                try
+                {
+                    int wert1 = Convert.ToInt32(Operant1.Text);
+                    int wert2 = Convert.ToInt32(Operant2.Text);
+                    int result = wert1 + wert2;
+                    MessageBox.Show(result.ToString());
+                }
+                catch(FormatException exception)
+                {
+                    MessageBox.Show("Bitte gebe keine Buchstaben ein!");
+                }
+            } else
+            {
+                MessageBox.Show("Please enter a valid Number" +
+                    "!");
+            }
         }
 
-        private void bt1_Click(object sender, EventArgs e)
-        { 
-            textBox1.AppendText("1");
+        private void btMinus_Click(object sender, EventArgs e)
+        {
+            if (Operant1.Text != null && Operant2.Text != null)
+            {
+                try
+                {
+                    int wert1 = Convert.ToInt32(Operant1.Text);
+                    int wert2 = Convert.ToInt32(Operant2.Text);
+                    int result = wert1 - wert2;
+                    MessageBox.Show(result.ToString());
+                }
+                catch(FormatException exception)
+                {
+                    MessageBox.Show("Bitte gebe keine Buchstaben ein!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid Number" +
+                    "!");
+            }
         }
 
-        private void bt2_Click(object sender, EventArgs e)
+        private void btMal_Click(object sender, EventArgs e)
         {
-            textBox1.AppendText("2");
+            if (Operant1.Text != null && Operant2.Text != null)
+            {
+                try
+                {
+                    int wert1 = Convert.ToInt32(Operant1.Text);
+                    int wert2 = Convert.ToInt32(Operant2.Text);
+                    int result = wert1 * wert2;
+                    MessageBox.Show(result.ToString());
+                }
+                catch(FormatException exception)
+                {
+                    MessageBox.Show("Bitte gebe keine Buchstaben ein!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid Number" +
+                    "!");
+            }
         }
 
-        private void bt3_Click(object sender, EventArgs e)
+        private void btGeteilt_Click(object sender, EventArgs e)
         {
-            textBox1.AppendText("3");
+            if (Operant1.Text != null && Operant2.Text != null)
+            {
+                try
+                {
+                    try
+                    {
+                        int wert1 = Convert.ToInt32(Operant1.Text);
+                        int wert2 = Convert.ToInt32(Operant2.Text);
+                        int result = wert1 / wert2;
+                        MessageBox.Show(result.ToString());
+                    }
+                    catch (DivideByZeroException exception)
+                    {
+                        MessageBox.Show("Teilen durch 0 nicht möglich!");
+                    }
+                }
+                catch(FormatException exception)
+                {
+                    MessageBox.Show("Bitte gebe keine Buchstaben ein!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please enter a valid Number" +
+                    "!");
+            }
         }
 
-        private void bt4_Click(object sender, EventArgs e)
+        private void btClose_Click(object sender, EventArgs e)
         {
-            textBox1.AppendText("4");
-        }
-
-        private void bt5_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("5");
-        }
-
-        private void bt6_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("6");
-        }
-
-        private void bt7_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("7");
-        }
-
-        private void bt8_Click(object sender, EventArgs e)
-        {
-            textBox1.AppendText("8");
-        }
-
-        private void bt9_Click(object sender, EventArgs e)
-        {
-            lb1.te
+            this.Close();
         }
     }
 }
